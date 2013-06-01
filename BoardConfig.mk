@@ -35,6 +35,9 @@ TARGET_BOOTLOADER_BOARD_NAME := m7
 
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.6/bin/arm-eabi-
 
+#lets just keep this around for commenting/uncommenting
+TARGET_GCC_VERSION := 4.6
+
 # Filesystem
 BOARD_BOOTIMAGE_PARTITION_SIZE := 16777216
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 16776704
